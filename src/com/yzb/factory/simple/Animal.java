@@ -3,7 +3,7 @@ package com.yzb.factory.simple;
 /**
  * @author yzb
  */
-public interface Anmial {
+public interface Animal {
 
     /**
      *

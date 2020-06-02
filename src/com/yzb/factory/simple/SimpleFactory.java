@@ -7,9 +7,9 @@ package com.yzb.factory.simple;
  */
 public class SimpleFactory {
     public static void main(String[] args){
-        Anmial dog = AnmialFactory.getAnmial("狗狗");
+        Animal dog = AnimalFactory.getAnimal("狗狗");
         System.out.println(dog.getName());
-        Anmial cat = AnmialFactory.getAnmial("猫猫");
+        Animal cat = AnimalFactory.getAnimal("猫猫");
         System.out.println(cat.getName());
     }
 }
