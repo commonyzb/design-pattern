@@ -3,11 +3,11 @@ package com.yzb.factory.method;
 /**
  * @author yzb
  */
-public interface AnmialFactory {
+public interface AnimalFactory {
 
     /**
      *
-     * @return
+     * @return animal
      */
-    Anmial getAnmial();
+    Animal getAnimal();
 }

@@ -3,14 +3,14 @@ package com.yzb.factory.method;
 /**
  * @author yzb
  */
-public class DogFactory implements AnmialFactory {
+public class DogFactory implements AnimalFactory {
 
     /**
      *
-     * @return
+     * @return dog
      */
     @Override
-    public Anmial getAnmial() {
+    public Animal getAnimal() {
         return new Dog();
     }
 }

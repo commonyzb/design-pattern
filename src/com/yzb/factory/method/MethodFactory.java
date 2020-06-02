@@ -9,8 +9,8 @@ package com.yzb.factory.method;
 public class MethodFactory {
 
     public static void main(String[] args) {
-        Anmial dog = new DogFactory().getAnmial();
-        Anmial cat = new CatFactory().getAnmial();
+        Animal dog = new DogFactory().getAnimal();
+        Animal cat = new CatFactory().getAnimal();
         System.out.println(dog.getName());
         System.out.println(cat.getName());
     }
